@@ -6,9 +6,11 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: test2
 
 on:
+  push:
+    branches: [test2-1]
   pull_request:
     branches: [ main, development**, bugfix**, feature** ]
 
